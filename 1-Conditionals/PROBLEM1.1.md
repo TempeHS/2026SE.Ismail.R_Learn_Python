@@ -20,51 +20,65 @@
 In `deep.py`, implement a program that prompts the user for the answer to the Great Question of Life, the Universe and Everything, outputting `Yes` if the user inputs `42` or (case-insensitively) `forty-two` or `forty two`. Otherwise output `No`.
 
 ## Hints
+
 - No need to convert the user’s input to an `int` if you check for equality with `"42"`, a `str`, rather than `42`, an `int`!
 - It’s okay if your output or the user’s wraps onto multiple lines.
 
 ## Before You Begin
-From the root of your repository execute `cd 1-Conditionals` So your current working directory is ...		
 
-		/1-Conditionals $:
+From the root of your repository execute `cd 1-Conditionals` So your current working directory is ...
+
+    	/1-Conditionals $:
+
 Next execute
 
-		mkdir deep
+    	mkdir deep
+
 to make a folder called `deep` in your codespace.
 
 Then execute
 
-		cd deep
+    	cd deep
+
 to change directories into that folder. You should now see your terminal prompt as `/1-Conditionals/deep $`. You can now execute
 
-		code deep.py
+    	code deep.py
+
 to make a file called `deep.py` where you’ll write your program.
 
 # How to Test
+
 Here’s how to test your code manually. At the `deep/ $` prompt in your terminal: :
 
-1. Run your program with `python deep.py`. Type `42` and press Enter. Your program should output:
+1.  Run your program with `python deep.py`. Type `42` and press Enter. Your program should output:
 
-		Yes
-2. Run your program with `python deep.py`. Type `Forty Two` and press Enter. Your program should output:
+        Yes
 
-		Yes
-3. Run your program with `python deep.py`. Type `forty-two` and press Enter. Your program should output:
+2.  Run your program with `python deep.py`. Type `Forty Two` and press Enter. Your program should output:
 
-		Yes
-4. Run your program with `python deep.py`. Type `50` and press Enter. Your program should output:
+        Yes
 
-		No
+3.  Run your program with `python deep.py`. Type `forty-two` and press Enter. Your program should output:
+
+        Yes
+
+4.  Run your program with `python deep.py`. Type `50` and press Enter. Your program should output:
+
+        No
 
 # Commit your program to GITHUB
+
 At the `/1-Conditionals/deep $` prompt in your terminal:
 
-		git add -A 
+    	git add -A
+
 Add all changed files in the repository to be committed
 
-		git commit -m “Upload completed deep.py“
-Commit all changes in the REPO with the comment “Upload completed deep.py“
-*note: If the file is not complete, adjust the comment to describes what is being commited*
+    	git commit -m “Upload completed deep.py“
 
-		git push 
+Commit all changes in the REPO with the comment “Upload completed deep.py“
+_note: If the file is not complete, adjust the comment to describes what is being commited_
+
+    	git push
+
 Push all changes to the REPO
